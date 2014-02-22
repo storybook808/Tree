@@ -1,0 +1,54 @@
+MACHINE PROBLEM 1
+STEVEN CHEN
+
+COMPILING INSTRUCTIONS
+
+Simpliy enter 'make' into the command line and the makefile should automatically
+compile the program for you.
+
+RUNTIME INSTRUCTIONS
+
+Enter './tree' into the command line in order to start the program. For this
+problem, I was only tasked with adding the listPostOrder and the deletenode
+features. Just follow the prompted instruction to operate the program.
+
+For some delete examples...
+
+k
+ \
+  m
+
+Delete 'm' for leaf test or 'k' for one child on the right test.
+
+  k
+ /
+j
+
+Delete 'k' for one child on the left test.
+
+  k
+ / \
+j   m
+
+Delete 'k' for 2 child simple case. (m should replace)
+
+  k
+ / \
+j   n
+   / \
+  m   o
+
+Delete 'k' for 2 child with left child w/ 2 children. (m should replace)
+
+  k
+ / \
+j   o
+   / \
+  m   p
+   \
+    n
+
+Delete 'k' for 2 child with a long sub branch. (m should replace and n should
+                                                be shifted to where n was)
+
+
